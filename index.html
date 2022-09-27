@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<center><title>Hola, mundo</center></title>
+	
+</head>
+<body style = "background-color: #BDDAFC;">
+<h1><i>Hola, mundo</i></h1>
+<div class="contenido">
+	<div class="articulos">
+		<div class="secciones">
+			<div>
+				<h2>Escribiendo "Hola, mundo" c++</h2>
+				<p><center>El primer programa que se suele crear al comenzar con un lenguaje de 
+				programación consiste en escribir algo en pantalla. 
+			Es muy frecuente que ese texto que escribe el programa 
+		sea un saludo al mundo que le rodea, un "Hola, mundo". En C++ sería así:</center></p>
+		<div><img src="c++.jpg" style="border: 3px solid; color: black";></div>
+		<p>
+			<center>Si no has programado antes, ese programa debe sonar casi tan ilegible como si estuviese escrito en chino. 
+			Para muchos detalles, haremos "acto de fe" y de momento nos creeremos que "se tiene que hacer así", 
+			porque más adelante iremos viendo el significado real de cada fragmento... cuando sea el momento...
+            Aun así, vamos a empezar a acercarnos al significado de cada frase, pero lo haremos sin entrar en mucho detalle...
+         </center>
+         </p>
+			</div>
+			<center>
+			<table border="1">
+			    <tr><th>sentencia<th>significado
+			    	<tr><td>#include<td> deberá aparecer al principio de cualquier programa que escriba cosas en pantalla o lea cosas desde teclado (es decir, en prácticamente todos).
+			    	<TR><TD>int main ()<td> indica que lo que viene a continuación es la parte principal, el cuerpo de nuestro programa. También deberá aparecer (casi) siempre.
+                    <tr><td>{ y }<td>son las llaves, que indican el principio y el final de un bloque, en este caso del cuerpo de nuestro programa. Deberán estar siempre.
+                    <tr><td>std::cout << "Hola, mundo"; <td>es la única orden real que tiene nuestro programa por ahora. Es la orden que se encarga de escribir en pantalla lo que indiquemos entre comillas.
+                    <tr><td>return 0;<td>  sirve para indicar que el programa ha terminado sin errores. En ocasiones se podrá eliminar, pero intentaremos tener la (buena) costumbre de incluirlo siempre.
+                    </TABLE>
+                 </center>
+                    <p>
+                    	<center>
+                    		Como se puede observar, lo único que cambiaremos en la mayoría de los casos es ese std::cout << "Hola, mundo"; Lo que aparece antes y después permanecerá igual en la mayoría de los casos.
+                    	</p>
+                    </center>
+		</div>
+		<div>
+			
+				<h2>Escribiendo "Hola, mundo" c#</h2>
+				<p>Sólo nos queda añadir la línea con el "Hola Mundo". Cuando lo hagamos y ejecutemos, se abrirá una ventana de cmd de windows, nos mostrará el "Hola Mundo" y se cerrará, por lo que no veremos nada. Así que añadiremos una segunda línea para esperar la pulsación de teclado y así veremos el "Hola Mundo" hasta que pulsemos la tecla de retorno de carro. El código completo quedará así:</p>
+		<div><img src="csharp.jpg" style="border: 3px solid; color: black";></div>
+		<h2>Ejecución del Hola Mundo</h2>
+		<p>
+		<center> 
+			Vamos primero con la opción fácil. En la barra de herramientas veremos una flechita verde que pone "Iniciar". Basta darle para ejecutar el programa. Se abrirá la ventana de cmd de windows con el "Hola Mundo !!" y se quedará abierta hasta que pulsemos retorno de carro en ella.
+         Vamos ahora con algunos detalles. Una aplicación en C# se puede compilar para depuración o se puede compilar para entregar e instalar. La compilación para depuración ocupa más, porque lleva dentro información de los nombres de variables, métodos, números de línea de código fuente, etc, etc, pero es muy útil para que un desarrollador pueda ejecutarla con Visual Studio y puede buscar errores.En la barra de herramientas tenemos las siguientes opciones
+      </center>
+      </p>
+        <div><img src="ins.jpg" style="border: 3px solid; color: black";></div>
+           <p>
+           	<center>Si seleccionamos "debug", estamos generando la versión de desarrollador, lista para poder ser depurada. Si seleccionamos "Release", estamos generando la versión para entregar a cliente, instalar y tal. Con "debug" seleccionado, podemos dar al botón de flecha verde "iniciar", ya que esto inicia en modo de depuración. Podríamos para el programa, ejecutarlo paso a paso y buscar fallos. Con el modo "debug" puesto, también podemos ejecutar en modo normal, con el menú "Depurar" -> "Iniciar sin Depurar".
+           Con modo "release", sólo podemos ejeuctar con "Depurar" -> "Iniciar Sin Depurar". Si intentamos "Iniciar" a secas (modo depuración), obtendremos un aviso de que no existe la información para depurar y puede no funcionar bien.
+        </center>
+     </p>
+		</div>
+</div>
+</body>
+</html>
